@@ -8,11 +8,9 @@ import { motion } from "framer-motion";
 
 import {
   collection,
-  addDoc,
   getDocs,
   orderBy,
   query,
-  serverTimestamp,
 } from "firebase/firestore";
 
 import ReactMarkdown from "react-markdown";
